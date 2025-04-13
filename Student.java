@@ -17,6 +17,6 @@ public class Student extends UniversityMember {
 
     @Override
     public String toString() { // name and email are private
-        System.out.printf("%s (%s) - Major: %s", getName(), getEmail(), major);
+        return String.format("%s (%s) - Major: %s", getName(), getEmail(), major);
     }
 }

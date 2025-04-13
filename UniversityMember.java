@@ -9,11 +9,18 @@ public abstract class UniversityMember {
         this.email = email;
     }
 
-    public String getRole();
+    public abstract String getRole(); // public abstract method
 
-    public String getName();
+    // getter methods
+    public String getName() {
+        return name;
+    }
 
-    public String getId();
+    public String getId() {
+        return id;
+    }
 
-    public String getEmail();
+    public String getEmail() {
+        return email;
+    }
 }

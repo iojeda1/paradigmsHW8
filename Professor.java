@@ -19,6 +19,6 @@ public class Professor extends UniversityMember {
     public String toString() {
         String[] name_divided = getName().split(" ");
         String last_name = name_divided[name_divided.length - 1];
-        System.out.printf("Prof. %s (%s)", last_name, getEmail());
+        return String.format("Prof. %s (%s)", last_name, getEmail());
     }
 }

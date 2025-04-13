@@ -27,7 +27,7 @@ public class Course {
         return enrolledStudents;
     }
 
-    public String addStudent(Student student) {
+    public void addStudent(Student student) {
         if (student == null) {
             return;
         }
@@ -39,7 +39,7 @@ public class Course {
         }
     }
 
-    public String removeStudent(Student student) {
+    public void removeStudent(Student student) {
         for (int i = 0; i < enrolledStudents.length; i++) {
             if (enrolledStudents[i] == student) {
                 enrolledStudents[i] = null;

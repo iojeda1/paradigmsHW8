@@ -40,6 +40,6 @@ public class TA extends UniversityMember {
                 courses.append(c.getCode()); // implemented in Courses
             }
         }
-        return String.format("%s (%s). TA for courses: ", getName(), getEmail(), courses.toString());
+        return String.format("%s (%s). TA for courses: %s", getName(), getEmail(), courses.toString());
     }
 }
