@@ -10,7 +10,7 @@ public class Main {
         TA ta2 = new TA("Sahil Khandelwal", "T2", "skhandel@nd.edu");
         TA ta3 = new TA("Kaixiang Zhao", "T3", "kzhao5@nd.edu");
         TA ta4 = new TA("Ella Gerzack", "TA4", "egerczak@nd.edu");
-        TA ta5 = new TA("Saofia Rexach", "TA5", "srexach@nd.edu");
+        TA ta5 = new TA("Sofia Rexach", "TA5", "srexach@nd.edu");
 
         Student s1 = new Student("Carlo Marra", "S1", "cmarra@nd.edu", "Neuroscience");
         Student s2 = new Student("Phoebe Huang", "S2", "phuang@nd.edu", "CSE");
