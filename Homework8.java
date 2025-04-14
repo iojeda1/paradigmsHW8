@@ -1,4 +1,4 @@
-public class Homework8 {
+public class Homework8 { // case sensitive
     public boolean check(char[] correctPositions, String word) {
         for (int i = 0; i < correctPositions.length; i++) {
             char character = correctPositions[i];

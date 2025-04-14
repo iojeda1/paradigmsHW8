@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Professor prof1 = new Professor("Prof. Santos", "jdasilv2@nd,edu", "100", "CSE");
+        Professor prof1 = new Professor("Prof. Santos", "jdasilv2@nd.edu", "100", "CSE");
         Professor prof2 = new Professor("Patricio Sumaza", "psumaza@nd.edu", "101", "CPEG");
 
         Course course1 = new Course("Programming Paradigms", "CSE30332", prof1);
@@ -30,7 +30,6 @@ public class Main {
         course2.addStudent(s3);
         // debug
         System.out.println(prof1);
-        System.out.println(course1.getInstructor());
         System.out.println(ta1);
         System.out.println(ta2);
         System.out.println(ta5);

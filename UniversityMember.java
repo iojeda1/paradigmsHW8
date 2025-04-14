@@ -9,7 +9,7 @@ public abstract class UniversityMember {
         this.email = email;
     }
 
-    public abstract String getRole(); // public abstract method
+    public abstract String getRole(); // public abstract method. every subclass must provide an implementation.
 
     // getter methods
     public String getName() {
